@@ -1,0 +1,14 @@
+You are given N values a1 a2 a3 .... aN and a value K.You have to form groups.The imbalance of a group is the difference between max and  min of the group.Count the ways to form groups so that the sum of differences of the groups doesnt exceed K.
+A group can have a single member,in that case the difference of the group is 0.
+
+
+Solution
+========
+SORT ai
+
+DP state: dp[index][no of open groups][total imbalance]
+
+Total imbalance
+
+
+
